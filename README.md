@@ -1,6 +1,8 @@
 # TRACK PRICE VIA ORACLE FEED
 From oracle published at https://github.com/lathanbritz/XRP-Oracles
 
+This code is setup to work with https://issue.cash/ USD it can be altered with work with other currency pairs from issue cache or something completely different, but that will require that pair feeds through via the oracle.
+
 The BOT will the buy/sell everything in its path to get to that price. You need to keep the bot funded use the yarn fund option to fun the bot it needs a decent amount of TESTNET XRP at times....
 
 
