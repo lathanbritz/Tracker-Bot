@@ -1,0 +1,31 @@
+{
+  "name": "price-track-bot",
+  "version": "0.0.1",
+  "description": "Bot to track production price on TESTNET",
+  "scripts": {
+    "tracker": "DEBUG=price-tracker* nodemon src/bots/testnet/price-tracker.js",
+    "fund": "DEBUG=fund-ballencer* nodemon src/bots/testnet/fund-ballencer.js"
+  },
+  "author": "Lathan Britz",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "debug": "^4.3.1",
+    "dotenv": "^10.0.0",
+    "events": "^3.3.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "mysql2": "^2.3.2",
+    "rippled-ws-client": "^1.6.5",
+    "ws": "^8.2.3",
+    "xrpl": "^2.0.0",
+    "xrpl-accountlib": "^1.1.4",
+    "xrpl-client": "^1.9.2",
+    "xrpl-orderbook-reader": "^0.3.3",
+    "xumm-sdk": "^1.0.2"
+  }
+}
